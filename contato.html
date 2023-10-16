@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recitech</title>
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="shortcut icon" type="imagex/png" href="img/logo.png">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" alt="Logo" class="logo">
+        <b><nav>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="forum.html">Fórum</a></li>
+
+
+            <li><a href="sobre.html">Sobre nós</a></li>
+
+
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="pontos.html">Pontos de coleta</a></li>
+        </ul>
+    </nav></b>
+        <a href="login.html">
+            <img src="img/Grupo 2 (1).png" id="login">
+    </a>
+    </header>
+    
+    <div class="img-principal"><img src="img/Mobile-login-Cristina-removebg-preview (1) 1.png" alt=""></div>
+    <h1>Contate-nos</h1>
+
+    <div class="container">
+       <img class="" src="img/WhatsApp_Image_2023-05-02_at_21.41 1.png"> 
+        <form id="contact-form">
+            <br>
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <div class="error" id="name-error"></div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <div class="error" id="email-error"></div>
+            </div>
+            <div class="success" id="success-message">
+                
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <div class="error" id="message-error">
+
+                </div>
+            </div>
+            <button type="submit" id="enviarBotao">Enviar</button>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+    
+</body>
+<footer id="footer">
+    <p>&copy; Recitech 2023</p>
+</footer>
+</html>

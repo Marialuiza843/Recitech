@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recitech</title>
+    <link rel="stylesheet" href="./css/pontos.css">
+    <link rel="shortcut icon" type="imagex/png" href="img/logo.png">
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" alt="Logo" class="logo">
+        <b>
+            <nav id="line">
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="forum.html">Fórum</a></li>
+
+
+                    <li><a href="sobre.html">Sobre nós</a></li>
+
+
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="pontos.html">Pontos de coleta</a></li>
+                </ul>
+            </nav>
+        </b>
+        <a href="login.html">
+            <img src="img/Grupo 2 (1).png" id="login">
+        </a>
+    </header>
+
+    <div class="search-container">
+        <input type="text" id="search-box" placeholder="Pesquisar...">
+        <button id="search-button">Pesquisar pontos</button>
+    </div>
+    <div id="search-results"></div>
+    <iframe id="maps"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9464304164935!2d-38.42828642575416!3d-12.975278159881483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161bffe28e7e27%3A0x9ee0feee239bfb56!2sLIXO%20ELETRONICO%20MRX%20COLETAMOS%20GRATUITAMENTE!5e0!3m2!1spt-BR!2sbr!4v1692830891043!5m2!1spt-BR!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <div class="img2">
+        <img src="img/logistica.png" alt="" srcset="">
+    </div>
+    <div class="text2">
+        <b>
+            <p>Deseja entregar um<br>material?</p>
+        </b>
+    </div>
+
+    <div onclick="entrega()" class="ler1">
+        <p><button id="botao-leia-mais">Clique aqui</button></p>
+    </div>
+
+    <script src="js/script2.js"></script>
+</body>
+
+<footer id="footer">
+    <p>&copy; Recitech 2023</p>
+</footer>
+
+</html>
